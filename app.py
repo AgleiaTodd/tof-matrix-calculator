@@ -1,4 +1,6 @@
-import numpy as np
+gradio
+matplotlib
+numbaimport numpy as np
 import time
 
 from numba import njit
@@ -1076,8 +1078,6 @@ def main():
 # ============================================================
 # PROGRAM ENTRY POINT
 # ============================================================
-!pip install -q gradio numba
-
 import gradio as gr
 import matplotlib.pyplot as plt
 
