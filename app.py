@@ -1,12 +1,14 @@
-gradio
-matplotlib
-numbaimport numpy as np
+import gradio as gr
+import matplotlib.pyplot as plt
+import numba
+import numpy as np
 import time
 
 from numba import njit
 from numba.typed import Dict
 from numba import types
 
+import os
 
 # ============================================================
 # TOWER OF FANTASY - MATRIX PROBABILITY CALCULATOR
